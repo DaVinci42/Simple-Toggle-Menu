@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context="io.github.davinci42.demo.MainActivity"
+	>
+
+	<io.github.davinci42.demo.SimpleToggleMenu
+		android:id="@+id/stm"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:fabBackgroundColor="@color/fab_tint"
+		app:actionMainSrc="@drawable/ic_add_white_24dp"
+		app:action1Src="@drawable/ic_call_white_24dp"
+		app:action2Src="@drawable/ic_mail_outline_white_24dp"
+		app:action3Src="@drawable/ic_mode_edit_white_24dp"
+		/>
+
+</RelativeLayout>

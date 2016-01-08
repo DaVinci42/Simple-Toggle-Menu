@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="SimpleToggleMenu" >
+		<attr name="fabBackgroundColor" format="color"/>
+		<attr name="actionMainSrc" format="reference"/>
+		<attr name="action1Src" format="reference"/>
+		<attr name="action2Src" format="reference"/>
+		<attr name="action3Src" format="reference"/>
+	</declare-styleable>
+</resources>
